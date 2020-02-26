@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formv.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form id="forms">
+        <label for="fname">Full Name *</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+        <label for="fname">Address *</label><br>
+        <input type="text" id="Adress" name="Adress"><br>
+        <label for="E-mail">E-mail *</label><br>
+        <input type="email" id="E-mail" name="E-mail"><br>
+
+        <label for="password">Password *</label><br>
+        <input type="password" id="password" name="password" ><br>
+
+        <label for="fname">Comments</label><br>                            
+        <textarea rows="2" cols="22" name="comment" form="forms"></textarea><br>
+        <label for="sendbutton"> </label>
+        <input  type="submit" id="sendbutton" onclick="sendbutton()" value="Send"><br>
+        <button type="reset" value="Reset">Reset</button>
+     </form> 
+    
+
+</div>
+
+
+<script src="/formv.js"></script>
+</body>
+</html>
